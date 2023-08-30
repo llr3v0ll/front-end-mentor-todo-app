@@ -60,7 +60,7 @@ function renderTodos() {
      <span class="custom-checkbox"></span>
      <p style="margin-top: 5px;">${listitem.label}</p>
    </label>
-   <img src="/images/icon-cross.svg" alt="cross" class="delete-one-todo">
+   <img src="images/icon-cross.svg" alt="cross" class="delete-one-todo">
    </li>`;
     if (listitem.complete == false) {
       num += 1;
